@@ -271,3 +271,24 @@ span {
 .hider {
   display: none;
 }
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: orange;
+}
+
+@media screen and (max-width: 998px) {
+  .introtext p {
+    width: 80%;
+  }
+  #tabimg1 {
+    float: right;
+  }
+
+  #tabimg2 {
+    float: left;
+  }
+
+}
